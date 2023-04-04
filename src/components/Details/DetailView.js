@@ -6,7 +6,7 @@ import { LoginContext } from '../ContextProvider/Context';
 import { toast } from 'react-toastify';
 import Comments from './comments/Comments';
 
-const URL = "https://sm-backend-5xl9.onrender.com";
+const URL = "https://sm-backend-5xl9.onrender.com/";
 
 const Container = styled(Box)(({ theme }) => ({
     margin: '50px 100px',

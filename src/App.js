@@ -15,7 +15,7 @@ import AddPost from "./components/AddPost";
 import DetailView from "./components/Details/DetailView";
 import UpdatePost from "./components/UpdatePost";
 import Sidebar from "./components/Sidebar";
-const URL = "https://sm-backend-5xl9.onrender.com";
+const URL = "https://sm-backend-5xl9.onrender.com/";
 
 function App() {
   const [data, setData] = useState(false);

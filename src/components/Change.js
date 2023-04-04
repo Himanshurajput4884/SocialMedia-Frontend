@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
 import "./mix.css";
-const URL = "https://sm-backend-5xl9.onrender.com";
+const URL = "https://sm-backend-5xl9.onrender.com/";
 
 function Change() {
   const navigate = useNavigate();

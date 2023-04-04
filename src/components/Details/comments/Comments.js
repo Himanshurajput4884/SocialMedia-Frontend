@@ -3,7 +3,7 @@ import { Box, TextareaAutosize, Button, styled } from '@mui/material';
 import { LoginContext } from '../../ContextProvider/Context';
 import Comment from './Comment';
 
-const URL = "https://sm-backend-5xl9.onrender.com";
+const URL = "https://sm-backend-5xl9.onrender.com/";
 //components
 // 
 const Container = styled(Box)`

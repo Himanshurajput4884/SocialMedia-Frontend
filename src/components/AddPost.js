@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { LoginContext } from './ContextProvider/Context';
 
 import "./mix.css";
-const URL = "https://sm-backend-5xl9.onrender.com";
+const URL = "https://sm-backend-5xl9.onrender.com/";
 
 
 function AddPost() {
