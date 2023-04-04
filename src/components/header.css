@@ -1,0 +1,25 @@
+header{
+    background-color: #07185e;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 10px -7px rgba(0,0,0,0.7);
+}
+
+header nav{
+    max-width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1{
+    color:white;
+}
+
+header nav .avtar{
+    cursor: pointer;
+    border: 4px solid white;
+    border-radius: 25px;
+}
