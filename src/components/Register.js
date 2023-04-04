@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 import "./mix.css";
-const URL = "https://sm-backend-5xl9.onrender.com/";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 const Register = () => {
   const [passShow, setPassShow] = useState(false);

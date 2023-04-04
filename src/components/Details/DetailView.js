@@ -1,13 +1,12 @@
 import { useState, useEffect, useContext } from 'react';
-
 import { Box, Typography, styled } from '@mui/material';
 import { ConnectingAirportsOutlined, Delete, Edit } from '@mui/icons-material';
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { LoginContext } from '../ContextProvider/Context';
 import { toast } from 'react-toastify';
-// components
 import Comments from './comments/Comments';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 const Container = styled(Box)(({ theme }) => ({
     margin: '50px 100px',

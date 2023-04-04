@@ -1,9 +1,10 @@
 import React, { useState, useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
-import "./mix.css";
 import { LoginContext } from './ContextProvider/Context';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+
+import "./mix.css";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 
 function AddPost() {

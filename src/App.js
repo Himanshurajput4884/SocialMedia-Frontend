@@ -15,7 +15,7 @@ import AddPost from "./components/AddPost";
 import DetailView from "./components/Details/DetailView";
 import UpdatePost from "./components/UpdatePost";
 import Sidebar from "./components/Sidebar";
-const url = "https://sm-backend-5xl9.onrender.com/";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 function App() {
   const [data, setData] = useState(false);
@@ -27,7 +27,7 @@ function App() {
   const DashboardValid = async () => {
     let token = localStorage.getItem("usersdatatoken");
 
-    const res = await fetch(`${url}validuser`, {
+    const res = await fetch(`${URL}validuser`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

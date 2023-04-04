@@ -3,7 +3,7 @@ import { NavLink, useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "./mix.css";
 import { LoginContext } from './ContextProvider/Context';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 function UpdatePost() {
   const navigate = useNavigate();

@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { Grid, Box } from '@mui/material';
 import { Link, useSearchParams } from 'react-router-dom';
 import Post from './Post';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+
+const URL = "https://sm-backend-5xl9.onrender.com";
+
+
 function Posts() {
     const [ posts, setPost ] = useState([]);
-
+    console.log(URL);
     let token = localStorage.getItem("usersdatatoken");
 
     useEffect(()=>{

@@ -2,7 +2,8 @@ import { useContext, useState, useEffect } from "react";
 import { Typography, Box, styled } from "@mui/material";
 import { Delete } from '@mui/icons-material';
 import { LoginContext } from '../../ContextProvider/Context';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 const Component = styled(Box)`
     margin-top: 30px;

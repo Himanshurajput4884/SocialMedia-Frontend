@@ -8,7 +8,7 @@ import {
 import { NavLink } from 'react-router-dom';
 import "./sidebar.css";
 import { LoginContext } from './ContextProvider/Context';
-const URL="";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 
 const Sidebar = ({children}) => {

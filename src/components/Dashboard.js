@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { LoginContext } from './ContextProvider/Context';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 const Dashboard = () => {
 

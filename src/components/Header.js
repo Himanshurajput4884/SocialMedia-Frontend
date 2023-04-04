@@ -7,7 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { useNavigate , NavLink } from "react-router-dom"
 import Button from 'react-bootstrap/Button';
 import { ButtonBase } from '@mui/material';
-const URL = "https://sm-backend-5xl9.onrender.com/";
+const URL = "https://sm-backend-5xl9.onrender.com";
 
 
 const Header = () => {
