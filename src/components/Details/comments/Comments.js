@@ -1,9 +1,9 @@
 import { useState, useEffect, useContext } from 'react';
 import { Box, TextareaAutosize, Button, styled } from '@mui/material';
 import { LoginContext } from '../../ContextProvider/Context';
+import Comment from './Comment';
 const URL = "https://sm-backend-5xl9.onrender.com/";
 //components
-import Comment from './Comment';
 // 
 const Container = styled(Box)`
     margin-top: 100px;
