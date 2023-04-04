@@ -36,7 +36,7 @@ function Posts() {
                     <Post post={post} />
                 </Link>
             </Grid>
-        )) : <Box style={{color: '878787', margin: '30px 80px', fontSize: 18}}>
+        )) : <Box style={{color: '878787', margin: '30px 80px', fontSize: 18, height:"100vh"}}>
                 No data is available...
             </Box>
     }
